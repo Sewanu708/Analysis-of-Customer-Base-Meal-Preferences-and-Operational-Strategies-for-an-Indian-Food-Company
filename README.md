@@ -8,16 +8,29 @@ The company wants you to help them understand their customer base, meal preferen
 Your client has provided you with almost three years of order information for each of their 77 fulfillment centers:
 
 •	"week" - week (1 - 145)
+
 •	"center_id" - id of the fulfillment center
+
 •	"city_code" - city identifier
+
 •	"region_code" - region identifier
+
 •	"center_type" - there are three types of centers: A, B, and C
+
 •	"op_area" - the size of the area serviced by the fulfillment center
+
 •	"meal_id" - each meal has a unique id
+
 •	"category" - food category (beverages, pasta, rice, etc.)
+
 •	"cuisine" - the type of cuisine for each meal
+
 •	"checkout_price" - the price the customer pays (including discounts, promotions, etc.)
+
 •	"base_price" - list price for the meal
+
 •	"emailer" - 1 if there was an email promotion for the meal, 0 otherwise
+
 •	"featured" - 1 if the website featured the meal, 0 otherwise
+
 •	"orders" - number of orders for that week for that meal id
